@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- By Sulochana Bhujel Thapa Magar -->
+  
+    <head>
+      <!-- resposive for devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Flickr's Photo Stream</title>
+
+    <!-- Bootstrap -->
+      <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head><!--  ends head -->
+
+    <!-- body start, main part of IU   -->
+    <body>
+
+      <div class="container-fluid">
+        <div class="row content">
+          <!-- side Navigation left -->
+          <div class="col-sm-3 sidenav">
+              <h4>Flickr's Photo Stream</h4>
+
+              <!-- Navigations -->
+              <ul class="nav nav-pills nav-stacked">
+                
+                <li class="active" id = "nav1"><a>Wild Life</a></li>
+                <li id = "nav3"><a>Sports</a></li>
+                <li id = "nav2"><a >Travel</a></li>
+                <li id = "nav4"><a>Nature</a></li>
+
+              </ul><br>
+               <!-- Navigation end -->
+
+              <!-- search tag -->
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Flickr..">
+                <span class="input-group-btn">
+                    <button class="btn btn-default glyphicon-search" type="button" onClick= "searchPhotos()">
+                  <span class"glyphicon-search" ></span>
+                    </button>
+                </span>
+            </div>
+
+            <!-- end search -->
+
+          </div>
+          <!-- left sidebar end -->
+
+          <!-- right sidebar -->
+          <div class="col-sm-9">
+              <h4><small>FLICKR'S PHOTOS</small></h4>
+              <hr>
+              
+            <!-- Flickr images -->
+              <div id= "info"></div>
+              <div id= "images"></div>
+                
+          </div>
+          <!-- right sidebar end -->
+      
+      
+      
+      
+        </div>
+      </div>
+
+
+    <!-- js -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="flickr.js"></script>
+
+    </body>
+    <!-- ends body -->
+
+</html>

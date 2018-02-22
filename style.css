@@ -1,0 +1,41 @@
+
+/*css for Flickr API*/
+/*by Sulochana Bhujel Thapa Magar*/
+/*Custom css for fonts and paragraphs*/
+
+.caption a{
+    color: #0e2a69;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif !important
+}
+
+.caption a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.caption h5 a{
+  color: black !important;
+  font-family: monospace !important;
+  font-weight: bold;
+}
+
+.caption h5  a:hover{
+  color:#0e2a69 !important;
+  text-decoration: none;
+  font-family: monospace !important;
+  font-weight: bold;
+}
+
+.caption p{
+  color: gray;
+  font-size: 11px;
+}
+
+.caption h6{
+  font-size: 10px;
+    
+  text-align: justify;
+}
+
+/*end css*/
